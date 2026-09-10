@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>kontak</title>
+  </head>
+  <body>
+    <h1>my contact</h1>
+  </body>
+  <a href="home.html">Home</a>
+  |
+  <a href="about.html">About</a>
+  |
+  <a href="project.html">Project</a>
+  |
+  <a href="kontak.html">Kontak</a>
+</nav>
+<hr />
+<h2>Informasi kontak</h2>
+<p>Nanti kalo aku udah jago dan kamu mau kerja sama kamu bisa hubungi aku</p>
+<p>dengan isi form dibawah, atau kalo mau langsung kirim aja ke email <a href="mailto:rahmasetaidirisma@gmail.com">rahmasetiadirisma</a> </p>
+<h2>Form Pesan</h2>
+   <form>
+      <table border="1" width="50%">
+        <tr>
+          <th colspan="2">Form Data Kontak</th>
+        </tr>
+
+        <tr>
+          <td class="label">Nama Lengkap :</td>
+          <td>
+            <input type="text" name="nama" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Email :</td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Nomor Telepon :</td>
+          <td>
+            <input type="tel" name="telepon" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Jenis Kelamin :</td>
+          <td>
+            <input type="radio" name="jk" value="Laki-laki" />
+            Laki-laki
+
+            <input type="radio" name="jk" value="Perempuan" />
+            Perempuan
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Tanggal Lahir :</td>
+          <td>
+            <input type="date" name="tanggal_lahir" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Topik Pesan :</td>
+          <td>
+            <select name="topik">
+              <option value="">Pilih</option>
+              <option value="Project">Project</option>
+              <option value="Kerja Sama">Kerja Sama</option>
+              <option value="Pertanyaan">Pertanyaan</option>
+              <option value="Lainnya">Lainnya</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Jenis Pesan :</td>
+          <td>
+            <input type="radio" name="jenis_pesan" value="Pertanyaan" />
+            Pertanyaan
+
+            <input type="radio" name="jenis_pesan" value="Saran" />
+            Saran
+
+            <input type="radio" name="jenis_pesan" value="Lainnya" />
+            Lainnya
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Pesan :</td>
+          <td>
+            <textarea name="pesan"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">Salinan Pesan :</td>
+          <td>
+            <input type="checkbox" name="salinan" value="ya" />
+            Kirim salinan pesan ke email saya
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Kirim Pesan" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+<hr>
+ <a href="home.html">back to home</a>
+<p>@2026|Risma Rahma Setiadi</p>
