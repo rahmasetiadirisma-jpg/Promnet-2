@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+#navbar{
+    background-color:rgb(109, 2, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    box-shadow: 0 2px 5px rgba(18, 2, 2, 0.331)
+}
+
+#navbar h1 {
+    color: white;
+    font-size: 35px;
+}
+.link-navbar a{
+    font-family: 'Times New Roman', 'Times, serif';
+ text-decoration:underline;
+    font-size: 16px;
+    color: #c88fe9;
+    margin-left: 15px;
+     transition: background-color 0.10s ease;
+ }
+  .link-navbar a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+
+body {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(29, 4, 30);
+    background: linear-gradient(
+        to bottom,
+        rgb(128, 28, 128),
+        rgb(255, 206, 255),
+        rgb(172, 100, 172)
+    );
+
+    min-height: 100vh;
+}
+
+
+h2 {
+    color: rgb(62, 14, 65);
+    text-align: center;
+    margin: 25px 0 15px;
+}
+
+
+body > p {
+    text-align: center;
+    font-size: 15px;
+    margin: 8px 20px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+
+table {
+    width: 70%;
+    background-color: rgb(255, 206, 255);
+    border: 2px solid rgb(109, 2, 109);
+    padding: 15px;
+}
+
+
+th {
+    background-color: rgb(109, 2, 109);
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid rgb(172, 100, 172);
+}
+
+.label {
+    font-weight: bold;
+    color: rgb(109, 2, 109);
+    width: 30%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #c88fe9;
+}
+
+
+textarea {
+    height: 100px;
+}
+
+
+.tombol {
+    padding: 8px 18px;
+    margin: 5px;
+    border: 2px solid rgb(109, 2, 109);
+    background-color: rgb(109, 2, 109);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+    background-color: #c88fe9;
+    color: rgb(62, 14, 65);
+}
+
+
+.back-home {
+    color: rgb(109, 2, 109);
+    background-color: rgb(255, 206, 255);
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.back-home {
+    color: rgb(109, 2, 109);
+    padding: 10px;
+    margin: 30px 80px;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+.akhir {background-color: rgb(255, 206, 255);}

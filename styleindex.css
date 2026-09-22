@@ -1,0 +1,71 @@
+*{margin: 0;}
+
+#navbar{
+    background-color:rgb(109, 2, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    box-shadow: 0 2px 5px rgba(18, 2, 2, 0.331)
+}
+
+#navbar h1 {
+    color: white;
+    font-size: 35px;
+}
+.link-navbar a{
+ text-decoration:underline;
+    font-size: 16px;
+    color: #c88fe9;
+    margin-left: 15px;
+     transition: background-color 0.10s ease;
+ }
+  .link-navbar a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+ #risma{
+    background: linear-gradient(to bottom, rgb(128, 28, 128), rgb(255, 206, 255), rgb(172, 100, 172));
+    display: flex;
+    align-items: center; 
+    padding: 80px;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.foto-risma{
+    background-color: rgba(104, 3, 104, 0.443);
+    padding: 20px;
+    border: 2px solid rgb(109, 2, 109);
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+.foto-risma p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(75, 12, 78);
+    font-size: 15px;
+}
+#risma h1{ color:rgb(62, 14, 65);}
+
+#tentang {
+    color: #452954;
+}
+#yang-dipelajari h2,ul {
+    background-color:rgb(109, 2, 109);
+}
+.back-home {
+    color: rgb(109, 2, 109);
+    padding: 10px;
+    margin: 30px 80px;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+.akhir {background-color: rgb(255, 206, 255);}
+

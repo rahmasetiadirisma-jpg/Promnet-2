@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+
+#navbar {
+    background-color: rgb(109, 2, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+#navbar h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.link-navbar a {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #c88fe9;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.link-navbar a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+body {
+    background: linear-gradient(
+        to bottom,
+        rgb(128, 28, 128),
+        rgb(255, 206, 255),
+        rgb(172, 100, 172)
+    );
+}
+
+body  h2 {
+    color: rgb(62, 14, 65);
+    font-size: 28px;
+    margin: 30px 80px 10px 80px;
+}
+
+body  h3 {
+    color: rgb(62, 14, 65);
+    font-size: 18px;
+    margin: 10px 80px 20px 80px;
+}
+
+.project {
+    background-color: rgba(255, 206, 255, 0.7);
+    padding: 20px;
+    border: 2px solid rgb(109, 2, 109);
+    margin: 20px 80px;
+}
+
+.project img {
+    width: 240px;
+    height: 180px;
+    margin: 10px;
+}
+
+.project h3 {
+    color: rgb(62, 14, 65);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.project p {
+    color: rgb(29, 4, 30);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.project a {
+    color: rgb(109, 2, 109);
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+
+#teknologi {
+    background-color: rgb(109, 2, 109);
+    color: white;
+    padding: 20px;
+    margin: 20px 80px;
+}
+
+#teknologi h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#teknologi li {
+    margin: 5px;
+}
+
+
+#ringkasan {
+    margin: 20px 80px;
+}
+
+#ringkasan h2 {
+    color: rgb(62, 14, 65);
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(255, 206, 255);
+    border: 2px solid rgb(109, 2, 109);
+}
+
+th {
+    background-color: rgb(109, 2, 109);
+    color: white;
+    padding: 10px;
+}
+
+td {
+    color: rgb(29, 4, 30);
+    padding: 10px;
+    border: 1px solid rgb(109, 2, 109);
+}
+
+.kerja-sama {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.kerja-sama a {
+    color: rgb(109, 2, 109);
+    font-size: 17px;
+    padding: 10px;
+    border: 2px solid rgb(109, 2, 109);
+    transition: background-color 0.3s ease;
+}
+
+.kerja-sama a:hover {
+    background-color: rgb(109, 2, 109);
+    color: white;
+}
+.back-home {
+    color: rgb(109, 2, 109);
+    padding: 10px;
+    margin: 30px 80px;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+.akhir {background-color: rgb(255, 206, 255);}

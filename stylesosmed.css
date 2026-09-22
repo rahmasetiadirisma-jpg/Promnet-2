@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+
+#navbar {
+    background-color: rgb(109, 2, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+#navbar h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.link-navbar a {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #c88fe9;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.link-navbar a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+
+body {
+    background: linear-gradient(
+        to bottom,
+        rgb(128, 28, 128),
+        rgb(255, 206, 255),
+        rgb(172, 100, 172)
+    );
+}
+
+
+.judul {
+    color: rgb(62, 14, 65);
+    font-size: 28px;
+    margin: 30px 80px 10px 80px;
+}
+
+.daftar-sosmed {
+    color: rgb(226, 226, 226);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 10px 50px 10px 30px;
+}
+
+
+.sosmed {
+    background-color: rgba(255, 206, 255, 0.7);
+    padding: 20px;
+    border: 2px solid rgb(109, 2, 109);
+    margin: 20px 80px;
+}
+
+.sosmed li {
+    color: rgb(62, 14, 65);
+    font-size: 18px;
+    margin: 10px;
+}
+
+.sosmed a {
+    color: rgb(109, 2, 109);
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sosmed a:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+
+
+.back-home {
+    color: rgb(109, 2, 109);
+    padding: 10px;
+    margin: 30px 80px;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #c88fe9;
+    color: rgb(109, 2, 109);
+}
+
+
+
+.akhir {
+    background-color: rgb(255, 206, 255);
+    color: rgb(62, 14, 65);
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+}
