@@ -37,9 +37,11 @@ body {
         rgb(128, 28, 128),
         rgb(255, 206, 255),
         rgb(172, 100, 172)
+       
     );
 
     min-height: 100vh;
+    animation: muncul 1s ease;
 }
 
 
@@ -144,3 +146,13 @@ textarea {
 }
 
 .akhir {background-color: rgb(255, 206, 255);}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

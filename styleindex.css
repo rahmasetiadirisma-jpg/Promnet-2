@@ -32,6 +32,8 @@
     padding: 80px;
     flex-wrap:wrap-reverse;
     justify-content: space-evenly;
+
+    animation: muncul 1s ease;
 }
 
 .foto-risma{
@@ -68,4 +70,12 @@
 }
 
 .akhir {background-color: rgb(255, 206, 255);}
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 1;
+    }
+}

@@ -37,6 +37,8 @@ body {
         rgb(255, 206, 255),
         rgb(172, 100, 172)
     );
+     min-height: 100vh;
+    animation: muncul 1s ease;
 }
 
 
@@ -102,4 +104,13 @@ body {
     text-align: center;
     padding: 15px;
     margin-top: 100px;
+}
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
